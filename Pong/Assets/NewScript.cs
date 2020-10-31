@@ -12,16 +12,25 @@ public int b;
 
 
 
-    int Prod(int )
+    int Prod(int a, int b)
+    {
+        return a * b;
+    }
+
+
+    int Div(int a, int b)
+    {
+       return a / b; 
+}
 
     // Start is called before the first frame update
     void Start()
     {
         Debug.Log(Sum(5, 10));
 
+        Debug.Log(Prod(4, 8));
 
-
-
+         Debug.Log(Div(6, 7));
 
 
 

@@ -351,7 +351,7 @@ GameObject:
   - component: {fileID: 413515087}
   - component: {fileID: 413515088}
   m_Layer: 0
-  m_Name: player1
+  m_Name: RacketRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -441,7 +441,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413515083}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.197, y: 0.518, z: 0}
+  m_LocalPosition: {x: 7.197, y: 0.518, z: 0}
   m_LocalScale: {x: 0.37754184, y: 2.9651957, z: 1.0589}
   m_Children: []
   m_Father: {fileID: 0}
@@ -480,8 +480,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e5037d31f8948e4b92d86ff62fdbc4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
-  axis: Vertical1
+  speed: 20
+  axis: Vertical
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,7 +579,7 @@ GameObject:
   - component: {fileID: 553594978}
   - component: {fileID: 553594982}
   m_Layer: 0
-  m_Name: player2
+  m_Name: RacketLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -690,7 +690,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 553594977}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.28, y: 0.54, z: 0}
+  m_LocalPosition: {x: -7.197, y: 0.54, z: 0}
   m_LocalScale: {x: 0.39999998, y: 3.0175538, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -708,8 +708,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e5037d31f8948e4b92d86ff62fdbc4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
-  axis: Vertical
+  speed: 20
+  axis: Vertical1
 --- !u!1 &568788590
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,13 +916,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748741755}
-  m_LocalRotation: {x: -0, y: -0.38986096, z: -0, w: 0.9208738}
-  m_LocalPosition: {x: -1.471, y: 0.008, z: -2.448}
-  m_LocalScale: {x: -0.42924777, y: 0.32804006, z: 0.80512}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: -0.8085841, y: 0.61793673, z: 1.5166234}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: -45.892002, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &748741759
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -961,7 +961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43c894724189670418ab0d7a903a62b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 15
 --- !u!1 &1033239029
 GameObject:
   m_ObjectHideFlags: 0
